@@ -1,7 +1,7 @@
 FROM alpine:3.7
-MAINTAINER Jochen Schalanda <jochen+docker@schalanda.name>
+MAINTAINER Ingo Weseloh <github@exanto.de>
 
-ENV PROSODY_VERSION 0.10.0-r2
+ENV PROSODY_VERSION 0.10.2
 
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
@@ -13,7 +13,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.description="Prosody IM Docker image based on Alpine Linux" \
       org.label-schema.url="https://prosody.im/" \
       org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/joschi/docker-prosody-alpine" \
+      org.label-schema.vcs-url="https://github.com/novalis111/docker-prosody-alpine" \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0" \
       com.microscaling.docker.dockerfile="/Dockerfile" \
