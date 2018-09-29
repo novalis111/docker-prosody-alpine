@@ -1,14 +1,6 @@
 # Prosody
 
-[![Docker Stars](https://img.shields.io/docker/stars/joschi/prosody-alpine.svg)][hub]
-[![Docker Pulls](https://img.shields.io/docker/pulls/joschi/prosody-alpine.svg)][hub]
-[![Image Size](https://images.microbadger.com/badges/image/joschi/prosody-alpine.svg)][microbadger]
-[![Image Version](https://images.microbadger.com/badges/version/joschi/prosody-alpine.svg)][microbadger]
-[![Image License](https://images.microbadger.com/badges/license/joschi/prosody-alpine.svg)][microbadger]
-
-
-[hub]: https://hub.docker.com/r/joschi/prosody-alpine/
-[microbadger]: https://microbadger.com/images/joschi/prosody-alpine
+Based on https://hub.docker.com/r/joschi/prosody-alpine/ but with current prosody and my own tweaks for LDAP, Jingle and other XEP
 
 ## What is Prosody?
 
