@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 MAINTAINER Ingo Weseloh <github@exanto.de>
 
 ENV PROSODY_VERSION 0.10.2
